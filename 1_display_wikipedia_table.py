@@ -7,4 +7,4 @@ req = requests.get(WIKI_URL)
 soup = BeautifulSoup(req.text, 'html5lib')
 table_classes = {'class': ['sortable', 'plainrowheaders']}
 table = soup.find_all('table', table_classes)
-display(HTML(str(table[0])))
+display(HTML(str(table[0]))) # table[0] just to take the first table on the webpage 
