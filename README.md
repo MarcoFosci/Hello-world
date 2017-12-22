@@ -1,4 +1,4 @@
-# Simple usable Python code
+# Some simple useful Python code
 
 1_DISPLAY A WIKIPEDIA TABLE ON A JUPITER NOTEBOOK
   This code will display the first table from a Wikipedia page about the ongoing armed conflicts
